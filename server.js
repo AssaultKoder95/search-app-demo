@@ -21,7 +21,7 @@ dbClient.initializeDB().then(() => {
 
   app.use(requestInitializer);
 
-  app.use('/location', location);
+  app.use('/locations', location);
 
   // catch 404 and forward to error handler
   app.use(function (req, res, next) {

@@ -13,15 +13,9 @@ const Search = () => {
     const getSearchResults = async (searchTerm) => {
         try {
             setLoadingState(true)
-            // const { body } = await Axios.get(`/locations?q=${searchTerm}`) 
-            // setLoadingState(false)
-            console.log(loadingState)      
-            return [
-                { name: 'test', coordinates: '123.123.123 - 123.123.123' }, 
-                { name: 'test', coordinates: '123.123.123 - 123.123.123' }, 
-                { name: 'test', coordinates: '123.123.123 - 123.123.123' },
-                { name: 'test', coordinates: '123.123.123 - 123.123.123'},
-                { name: 'test', coordinates: '123.123.123 - 123.123.123'}]
+            const { data: { data: results } } = await Axios.get(`/locations?q=${searchTerm}`) 
+            setLoadingState(false)
+            return results
         } catch (error) {
             console.log(error)
             alert(error)
@@ -32,6 +26,7 @@ const Search = () => {
         const searchTerm = e.target.value
 
         if (searchTerm.length < 2) {
+            setData([]);
             return
         }
 

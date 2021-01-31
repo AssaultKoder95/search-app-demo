@@ -3,3 +3,12 @@
     justify-content: center;
     font-size: calc(6px + 2vmin);
 }
+
+.Search-Item {
+    text-align: left;
+}
+
+.Search-Coordinates {
+    font-size: calc(2px + 2vmin);
+    font-style: italic;
+}
