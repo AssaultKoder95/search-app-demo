@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         Searchimo
-        <p>The best location finder in UK</p>
+        <p>The best location finder</p>
       </header>
       <Search/>
     </div>
