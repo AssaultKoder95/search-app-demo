@@ -1,0 +1,9 @@
+1. react setup
+2. node setup
+3. heroku setup
+
+Features
+1. Search, pagination, debouncing
+2. backend - pagination
+3. Cypress + Jest testing
+4. Documentation
