@@ -1,0 +1,33 @@
+{
+  "name": "search-app-demo",
+  "version": "1.0.0",
+  "description": "A simple SERN stack app demo - allows users to search through different listings.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssaultKoder95/search-app-demo.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Javascript"
+  ],
+  "author": "Abhishek Khanna <abhishekkhanna1995@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssaultKoder95/search-app-demo/issues"
+  },
+  "homepage": "https://github.com/AssaultKoder95/search-app-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "morgan": "^1.10.0",
+    "sqlite3": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}
