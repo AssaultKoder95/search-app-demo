@@ -1,0 +1,7 @@
+.Search-Bar {
+    min-width: 250px;
+    min-height: 30px;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 2.5vmin;
+}

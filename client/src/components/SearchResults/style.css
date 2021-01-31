@@ -1,0 +1,5 @@
+.Search-Results {
+    display: flex;
+    justify-content: center;
+    font-size: calc(6px + 2vmin);
+}
