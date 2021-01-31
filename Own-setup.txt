@@ -1,9 +1,9 @@
-1. react setup
-2. node setup
+1. react setup - check
+2. node setup - check
 3. heroku setup
 
 Features
-1. Search, pagination, debouncing
-2. backend - pagination
+1. Search, pagination, debouncing - check
+2. backend - pagination - check
 3. Cypress + Jest testing
 4. Documentation
